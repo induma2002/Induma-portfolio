@@ -1,0 +1,20 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Marketing website placeholder</title>
+  <desc id="desc">Abstract layout for a landing page concept</desc>
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="url(#base)" />
+  <rect x="60" y="60" width="260" height="80" rx="18" fill="#111827" opacity="0.9" />
+  <rect x="60" y="160" width="260" height="80" rx="18" fill="#111827" opacity="0.7" />
+  <rect x="60" y="260" width="260" height="80" rx="18" fill="#111827" opacity="0.6" />
+  <rect x="360" y="60" width="220" height="280" rx="24" fill="url(#panel)" opacity="0.9" />
+  <circle cx="470" cy="200" r="70" fill="#fff5" />
+</svg>

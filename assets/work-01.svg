@@ -1,0 +1,19 @@
+<svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Analytics dashboard placeholder</title>
+  <desc id="desc">Gradient blocks representing dashboard widgets</desc>
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="url(#g2)" />
+  <rect x="40" y="40" width="360" height="120" rx="20" fill="url(#g1)" opacity="0.85" />
+  <rect x="420" y="40" width="180" height="300" rx="22" fill="#312e81" opacity="0.65" />
+  <rect x="40" y="180" width="360" height="80" rx="18" fill="#111827" stroke="#8b5cf6" stroke-width="4" />
+  <rect x="40" y="280" width="360" height="60" rx="14" fill="#111827" stroke="#ec4899" stroke-width="4" opacity="0.9" />
+</svg>

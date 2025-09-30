@@ -1,0 +1,22 @@
+<svg width="420" height="560" viewBox="0 0 420 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Stylized gradient portrait placeholder</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6cab" />
+      <stop offset="100%" stop-color="#7366ff" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#18142c" />
+      <stop offset="80%" stop-color="#2f2058" />
+    </linearGradient>
+  </defs>
+  <rect width="420" height="560" rx="32" fill="url(#accent)" />
+  <circle cx="210" cy="190" r="120" fill="url(#bg)" opacity="0.9" />
+  <circle cx="210" cy="190" r="100" fill="#18142c" opacity="0.9" />
+  <path d="M130 370c20-60 70-80 80-80s60 20 80 80-20 110-80 110-100-50-80-110z" fill="url(#bg)" opacity="0.85" />
+  <path d="M150 360c15-45 55-60 60-60s45 15 60 60-15 90-60 90-75-40-60-90z" fill="#201b34" />
+  <circle cx="170" cy="190" r="12" fill="#fff" opacity="0.4" />
+  <circle cx="250" cy="190" r="12" fill="#fff" opacity="0.4" />
+  <path d="M185 235c10 12 40 12 50 0" stroke="#ffb6ff" stroke-width="6" stroke-linecap="round" fill="none" />
+</svg>
