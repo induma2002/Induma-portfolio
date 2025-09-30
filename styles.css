@@ -71,6 +71,7 @@ textarea:focus-visible {
   align-items: center;
   justify-content: space-between;
   height: var(--nav-height);
+  position: relative;
 }
 
 .logo {
@@ -179,7 +180,6 @@ main {
   line-height: 1.1;
   margin: 18px 0;
 }
-/* ....... */
 
 .hero .lede {
   color: var(--text-muted);
@@ -621,7 +621,9 @@ main {
 @media (max-width: 960px) {
   .site-nav ul {
     position: absolute;
-    inset: calc(var(--nav-height) + 16px) 24px auto;
+    top: calc(var(--nav-height) + 16px);
+    left: 0;
+    right: 0;
     padding: 24px;
     background: rgba(12, 10, 25, 0.96);
     border-radius: var(--radius-md);
@@ -649,7 +651,7 @@ main {
   }
 
   .site-nav {
-    position: relative;
+    position: static;
   }
 
   .hero-grid,
@@ -674,6 +676,10 @@ main {
   body {
     background: radial-gradient(circle at 20% -5%, rgba(115, 102, 255, 0.2), transparent 45%),
       var(--bg);
+  }
+
+  .site-nav ul {
+    padding: 20px;
   }
 
   .container {
@@ -799,4 +805,3 @@ body[data-has-custom-cursor='true'] [role='button'] {
     filter: blur(var(--blur, 24px));
   }
 }
-
